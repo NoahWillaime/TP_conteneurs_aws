@@ -6,3 +6,5 @@ services:
   - docker
 after_deploy:
   - echo "done deploying"
+notifications:
+  slack: m2-fst-il:mCCSfN2Fkk7TZZsqA23f3Tpn
